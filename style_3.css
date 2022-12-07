@@ -1,0 +1,109 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: rgb(255, 191, 0);
+}
+
+.text-warning{
+    background: -webkit-linear-gradient(rgb(54, 141, 112), rgba(0, 0, 0, 0.959) ) ;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: rgb(252, 252, 252) !important;
+    font-family: VT323;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+
+.about-text p{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 15px;
+}
+
+.section-padding{
+    padding: 50px 0;
+}
+
+.navbar-brand{
+    font-size: 40px;
+}
+
+.navbar-nav a{
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: Bree Serif;
+}
+
+.navbar-light .navbar-brand{
+    color: #000;
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+.w-100 {
+    width: 100% !important;
+    height: 80vh;
+}
+
+@media only screen and (max-width: 767px){
+    .navbar-nav{
+        text-align: center;
+    }
+}
+
+#hero {
+    width: 100%;
+    height: 93vh;
+    background: url("SportBG.png") top;
+    background-size: cover;
+    position: relative;
+}
+
+#hero .container {
+    position: relative;
+    justify-content: center;
+}
+
+#hero h1 {
+    margin: 10px;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 40px;
+    color: #000000;
+    font-family: Poiret One;
+    text-align: center;
+}
+
+.jumbotron .container{
+    border-radius: 20px;
+}
+
+hr{
+    border-width: 3px;
+    height: 10px;
+    color: rgba(0, 0, 0, 0.971);
+    background-color: rgb(255, 255, 255)
+}
+
+.carousel-inner {
+    border-top: 10px;
+    border-left: 10px;
+    border-right: 10px;
+    border-bottom: 10px;
+    border-color: rgb(82, 132, 230);
+    border-style: groove;
+    vertical-align: middle;
+    width: 70em;
+    height: 33em;
+    margin: 5em;
+}
+
+@media (min-width: 1024px) {
+    #hero {
+      background-attachment: fixed;
+    }
+}
